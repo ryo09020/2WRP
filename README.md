@@ -1,24 +1,14 @@
-# README
+# How to set up
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##  Before you start this app
+run below codes
+```
+docker exec -it containerID bin/rails db:migrate RAILS_ENV=development
+docker exec -it containerID /bin/bash -c "yarn add @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object"
+```
+### how to check containerID
+```
+docker ps
+```
+run above code and you can see CONTAINER ID colum
+## you can start "docker-compose up"
