@@ -14,3 +14,10 @@ run above code and you can see CONTAINER ID colum
 
 
 ### And then, you can start app by`docker-compose up`
+
+```
+docker-compose build
+```
+```
+docker-compose up
+```
