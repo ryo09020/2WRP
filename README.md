@@ -1,6 +1,6 @@
 # How to use
 
-run below codes and access 'http://localhost:3000/'
+run below codes and access http://localhost:3000/
 ```
 docker-compose build
 docker-compose up -d
