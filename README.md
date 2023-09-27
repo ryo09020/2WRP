@@ -1,5 +1,8 @@
 # How to use
 
+## Before using
+ Download Docker and activate Docker App
+
 run below codes and access http://localhost:3000/
 ```
 docker-compose build
