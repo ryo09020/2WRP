@@ -3,6 +3,7 @@
 ## Before using
  Download Docker and activate Docker App
 
+## Set-up
 run below codes and access http://localhost:3000/
 ```
 docker-compose build
