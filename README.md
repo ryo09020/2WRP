@@ -1,12 +1,13 @@
 # How to use
 
-run below codes
+run below codes and access 'http://localhost:3000/'
 ```
 docker-compose build
 docker-compose up -d
 docker exec -it containerID bin/rails db:migrate RAILS_ENV=development
 docker exec -it containerID /bin/bash -c "yarn add @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object"
 ```
+
 ### how to check containerID
 ```
 docker ps
