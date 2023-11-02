@@ -9,7 +9,6 @@ run below codes and access http://localhost:3000/
 docker-compose build
 docker-compose up -d
 docker-compose exec web bin/rails db:migrate RAILS_ENV=development
-docker-compose exec web /bin/bash -c "yarn add @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object"
 ```
 
 ### how to check containerID
