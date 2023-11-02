@@ -25,5 +25,9 @@ COPY . .
 # ポートを公開
 EXPOSE 3000
 
+# Yarnパッケージのインストール
+RUN yarn add @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object
+
+
 # アプリケーションを起動
 CMD ["rails", "server", "-b", "0.0.0.0"]

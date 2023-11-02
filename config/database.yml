@@ -8,3 +8,4 @@ default: &default
 
 development:
   <<: *default
+  host: db
