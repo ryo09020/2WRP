@@ -1,3 +1,5 @@
+# Who read what paper
+
 # How to use
 
 ## Before using
@@ -17,3 +19,8 @@ docker ps
 ```
 run above code and you can see CONTAINER ID colum
 
+#機能
+- 読んだ論文を投稿
+- 論文にコメント、いいね
+- ユーザー情報登録、編集
+- Xみたいなことができるアプリ(論文.ver)
